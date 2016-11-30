@@ -2663,6 +2663,10 @@ namespace NServiceBus.Routing.Legacy
 }
 namespace NServiceBus.Routing.MessageDrivenSubscriptions
 {
+    public class MessageDrivenSubscriptions : NServiceBus.Features.Feature
+    {
+        protected internal override void Setup(NServiceBus.Features.FeatureConfigurationContext context) { }
+    }
     public class PublisherAddress
     {
         public static NServiceBus.Routing.MessageDrivenSubscriptions.PublisherAddress CreateFromEndpointInstances(params NServiceBus.Routing.EndpointInstance[] instances) { }
