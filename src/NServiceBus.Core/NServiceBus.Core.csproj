@@ -161,14 +161,11 @@
     <Compile Include="Routing\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs" />
     <Compile Include="Routing\MessageDrivenSubscriptions\NamespacePublisherSource.cs" />
     <Compile Include="Routing\MessageDrivenSubscriptions\TypePublisherSource.cs" />
-    <Compile Include="Routing\NativePublishSubscribeFeature.cs" />
     <Compile Include="Routing\NativePublishSubscribeProvider.cs" />
-    <Compile Include="Routing\ReplyAddressFeature.cs" />
     <Compile Include="Routing\Routers\IPublishRouter.cs" />
     <Compile Include="Routing\IPublishSubscribeProvider.cs" />
     <Compile Include="Routing\Routers\PublishRouterBehavior.cs" />
     <Compile Include="Routing\PublishSubscribeFeature.cs" />
-    <Compile Include="Routing\RoutingComponent.cs" />
     <Compile Include="Routing\TypeRouteSource.cs" />
     <Compile Include="Routing\IDistributionPolicy.cs" />
     <Compile Include="Routing\IRouteSource.cs" />
