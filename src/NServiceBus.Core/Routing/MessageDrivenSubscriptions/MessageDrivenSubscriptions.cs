@@ -1,6 +1,5 @@
-﻿namespace NServiceBus.Routing.MessageDrivenSubscriptions
+﻿namespace NServiceBus.Features
 {
-    using Features;
     using Transport;
 
     /// <summary>

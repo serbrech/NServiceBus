@@ -2603,21 +2603,6 @@ namespace NServiceBus.Features
         {
         }
     }
-
-    [ObsoleteEx(
-        RemoveInVersion = "7",
-        TreatAsErrorFromVersion = "7")]
-    public class MessageDrivenSubscriptions : Feature
-    {
-        internal MessageDrivenSubscriptions()
-        {
-        }
-
-        protected internal override void Setup(FeatureConfigurationContext context)
-        {
-            throw new System.NotImplementedException();
-        }
-    }
 }
 
 

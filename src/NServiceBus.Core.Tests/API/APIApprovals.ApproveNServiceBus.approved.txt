@@ -1836,8 +1836,6 @@ namespace NServiceBus.Features
     {
         protected internal override void Setup(NServiceBus.Features.FeatureConfigurationContext context) { }
     }
-    [System.ObsoleteAttribute("Will be treated as an error from version 7.0.0. Will be removed in version 7.0.0." +
-        "", false)]
     public class MessageDrivenSubscriptions : NServiceBus.Features.Feature
     {
         protected internal override void Setup(NServiceBus.Features.FeatureConfigurationContext context) { }
@@ -2663,10 +2661,6 @@ namespace NServiceBus.Routing.Legacy
 }
 namespace NServiceBus.Routing.MessageDrivenSubscriptions
 {
-    public class MessageDrivenSubscriptions : NServiceBus.Features.Feature
-    {
-        protected internal override void Setup(NServiceBus.Features.FeatureConfigurationContext context) { }
-    }
     public class PublisherAddress
     {
         public static NServiceBus.Routing.MessageDrivenSubscriptions.PublisherAddress CreateFromEndpointInstances(params NServiceBus.Routing.EndpointInstance[] instances) { }
