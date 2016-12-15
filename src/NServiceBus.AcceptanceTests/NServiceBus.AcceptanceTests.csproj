@@ -95,11 +95,13 @@
     <Compile Include="Routing\MessageDrivenSubscriptions\When_subscribing_to_a_derived_event.cs" />
     <Compile Include="Routing\MessageDrivenSubscriptions\When_subscribing_to_multiple_publishers.cs" />
     <Compile Include="Routing\MessageDrivenSubscriptions\When_subscribing_to_scaled_out_publisher.cs" />
+    <Compile Include="Sagas\When_polymorphic_saga_updates_saga.cs" />
     <Compile Include="Sagas\When_a_base_class_mapped_is_handled_by_a_saga.cs" />
     <Compile Include="Sagas\When_a_base_class_message_starts_a_saga.cs" />
     <Compile Include="Sagas\When_finder_cant_find_saga_instance.cs" />
     <Compile Include="Sagas\When_finder_returns_existing_saga.cs" />
     <Compile Include="Sagas\When_saga_started_concurrently.cs" />
+    <Compile Include="Sagas\When_starting_saga_from_inherited_message.cs" />
     <Compile Include="Sagas\When_using_a_received_message_for_timeout.cs" />
     <Compile Include="Satellites\When_satellite_txmode_does_not_match_endpoints_txmode.cs" />
     <Compile Include="Serialization\When_configuring_custom_xml_namespace.cs" />
